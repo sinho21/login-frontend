@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.tYf{
+    margin-left: 10%;
+}
+
+.TituloYparrafo,
+ .formulario {
+    display: inline-block;
+    margin-top: 11%;
+}
+.TituloYparrafo h1{
+    font-size: 50px;
+}
+.TituloYparrafo p{
+    font-size: 25px;
+}
+.TituloYparrafo h1, p{
+    margin: 2%;
+}
+.formulario
+    input[type="text"],
+    input[type="password"] { 
+        width: 95%; /* Los campos ocupan el 100% del ancho del contenedor */
+        padding: 10px; /* Agrega un espacio interno de 10px para el texto */
+        margin-bottom: 15px; /* Agrega un margen inferior de 15px entre los campos */
+        border: 1px solid #ddd; /* Aplica un borde gris claro alrededor de los campos */
+        border-radius: 5px; /* Redondea las esquinas de los campos con un radio de 5px */
+        font-size: 16px; /* Define el tamaño de la fuente como 16px */
+    }
+
+    .formulario{
+    margin-left: 13%;
+     width: 30%; /* Define el ancho del contenedor como el 50% del ancho de la pantalla */
+     height: 350px;
+    padding: 30px; /* Agrega un espacio interno de 20px dentro del contenedor */
+    background: #ffffff; /* Establece un color de fondo blanco para el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra ligera para dar profundidad */
+    border-radius: 10px; /* Redondea las esquinas del contenedor con un radio de 10px */
+    }
+
+    .form{
+        margin-top: 5%;
+    }
+
+    #BtnIngresar, #BtnCrearC { 
+        width: 100%; /* El botón ocupa todo el ancho del contenedor */
+        padding: 10px; /* Agrega un espacio interno de 10px */
+        background-color:black; /* Establece un color de fondo azul para el botón */
+        border: none; /* Elimina el borde del botón */
+        border-radius: 5px; /* Redondea las esquinas del botón con un radio de 5px */
+        color: white; /* Establece el color del texto en blanco */
+        font-size: 16px; /* Define el tamaño de la fuente como 16px */
+        cursor: pointer; /* Cambia el cursor al estilo de "mano" cuando se pasa por encima */
+        transition: background-color 0.3s ease; /* Agrega una transición suave al cambiar el color de fondo */
+    }
+    
+    /* Hover para el botón */
+    #BtnIngresar:hover { 
+        background-color: red; /* Cambia el color de fondo a un azul más oscuro cuando el ratón está sobre el botón */
+    }
+
+    #BtnCrearC:hover { 
+        background-color: red; /* Cambia el color de fondo a un azul más oscuro cuando el ratón está sobre el botón */
+    }
